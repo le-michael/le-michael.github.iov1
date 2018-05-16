@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Michael Le</title>
+  <meta name="description" content="Michael Le's portfolio website">
+  <meta name="author" content="https://github.com/le-michael">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="info three columns">
+          <h4>
+            <b>Michael Le</b>
+            <span class="blink"></span>
+          </h4>
+
+          <div id="particles-js"></div>
+          <div class="contact">
+            <h6>
+              <i class="fab fa-github-alt"></i> : le-michael
+              <br>
+              <i class="fas fa-at"></i> : lem12@mcmaster.ca
+              <br>
+              <i class="fab fa-linkedin"></i> : lemich
+            </h6>
+
+
+          </div>
+
+
+
+
+          <div class="nav">
+            <h5 class="nav-item" onclick="Load('aboutme');">
+              <u>About Me</u>
+            </h5>
+            <h5 class="nav-item" onclick="Load('projects');">
+              <u>Projects</u>
+            </h5>
+            <h5 class="nav-item">
+              <u>Resume</u>
+            </h5>
+          </div>
+
+        </div>
+
+
+        <div class="nine columns">
+          <div id="aboutme" class="">
+            <h4 >About Me</h4>
+
+            <p>I am currently studying Software Engineering at Mcmaster University. As a young engineer
+              <u>driven to learn</u>, I spend
+              <u>alot of my time</u> looking for and
+              <u>tinkering</u> with different technologies. Infact a majority of what I have learned so far comes from creating
+              projects on my free time. In each of my projects I try to pick a new tech and then combine it with something
+              i've done in the past, this way I have the oppurtunity to improve on what I already know while also learning
+              something new.</p>
+
+            <p>Besides creating projects, I am also an
+              <u>avid competitive programmer</u>;
+              <u>representing McMaster University at the ICPC</u>. These competitions are
+              <u>alot of fun</u> and I often get the chance to solve some
+              <u>really intresting problems</u>.</p>
+          </div>
+
+
+          <div id="projects" class="fadein" style="display: none;">
+            <h4>Projects</h1>
+            
+            <div class="project-item">
+              <span class="project-title">filter</span> : 
+              A compolation of various image filters written in Go. <br>
+              - Implemented edge detection, blurring, sharpning, and a few more filters.
+              <br>
+              - Took advantage of Go's concurrency to improve the image processing time.
+
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
+
+
+<script src="js/particles.min.js"></script>
+<script src="js/client.js"></script>
