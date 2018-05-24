@@ -109,11 +109,27 @@ particlesJS("particles-js", {
     "retina_detect": true
 });
 
+var dropstate=false;
 
-
-curr = "aboutme"
+var curr = "aboutme";
 function Load(PageName) {
     document.getElementById(curr).style.display = "none";
     document.getElementById(PageName).style.display = "inline";
     curr = PageName;
+}
+
+const dropdown = document.getElementById("drop-list");
+
+function ShowDropdown(){
+
+    if (dropstate){
+        console.log("Hiding dropdown")
+        dropdown.style.display = "none";
+        
+    } else {
+        console.log("Showing dropdown")
+        dropdown.style.display = "inline";
+    }
+    dropstate ^= 1;
+    
 }

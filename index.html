@@ -41,27 +41,32 @@
     <div class="container">
       <div class="mobile-nav">
 
-        <h3 class="name">Michael Le</h3>
-        <div class="dropdown"><i class="fas fa-bars"></i>
-
+        <h3 class="name">Michael Le
+          <span class="blink">_</span>
+        </h3>
+        <div id="dropdown" onclick="ShowDropdown();">
+          <i class="fas fa-bars"></i>
+          <div id="drop-list">
+            <h5 class="drop-content" onclick="Load('aboutme');">About Me</h5>
+            <h5 class="drop-content"  onclick="Load('projects');">Projects</h5>
+            
+            <a href="images/resume.pdf" >Resume</a>
+          </div>
         </div>
 
-
-
-
         <hr>
-      
+
       </div>
-      
+
       <div class="row">
 
         <div class="info three columns">
           <h4>
             <b>Michael Le</b>
-            <span class="blink"></span>
+            <span class="blink">_</span>
           </h4>
 
-          
+
           <div class="contact">
             <h6>
               <i class="fab fa-github-alt"></i> : le-michael
@@ -84,9 +89,7 @@
             <h5 class="nav-item" onclick="Load('projects');">
               <u>Projects</u>
             </h5>
-            <h5 class="nav-item">
-              <u>Resume</u>
-            </h5>
+           <u><a href="images/resume.pdf">Resume</a></u>
           </div>
 
         </div>
@@ -114,35 +117,11 @@
 
           <div id="projects" class="fadein" style="display: none;">
             <h4>Projects</h1>
+              <p> Still working on a project worth showcasing... but feel free to check out my work out on github.</p>
 
-              <div class="project-item">
-                <span class="project-title">filter</span> : A compolation of various image filters written in Go.
-                <br> - Implemented edge detection, blurring, sharpning, and a few more filters.
-                <br> - Took advantage of Go's concurrency to improve the image processing time.
-                <br> - Developed unit tests to verify the corecetness of each filter's calculations.
-              </div>
-              <hr>
-
-
-              <div class="project-item">
-                <span class="project-title">filter</span> : A compolation of various image filters written in Go.
-                <br> - Implemented edge detection, blurring, sharpning, and a few more filters.
-                <br> - Took advantage of Go's concurrency to improve the image processing time.
-                <br> - Developed unit tests to verify the corecetness of each filter's calculations.
-              </div>
-              <hr>
           </div>
-
-
-
-
         </div>
-
-
-
-
       </div>
-
     </div>
   </div>
 
