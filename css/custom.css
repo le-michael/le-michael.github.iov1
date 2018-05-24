@@ -33,6 +33,7 @@
 
     position: absolute;
     padding-top: 2rem;
+    padding-bottom: 1rem;
 
    width: 10em;
     right: 0rem;
@@ -44,8 +45,6 @@
 .drop-content{
     border-bottom: solid silver 1px;
 }
-
-
 
 
 
