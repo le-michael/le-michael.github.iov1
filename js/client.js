@@ -112,9 +112,14 @@ particlesJS("particles-js", {
 var dropstate=false;
 
 var curr = "aboutme";
+
+
 function Load(PageName) {
+    console.log(curr);
+
     document.getElementById(curr).style.display = "none";
     document.getElementById(PageName).style.display = "inline";
+    console.log(document.getElementById(PageName).style.display)
     curr = PageName;
 }
 
@@ -122,13 +127,11 @@ const dropdown = document.getElementById("drop-list");
 
 function ShowDropdown(){
 
-    if (dropstate){
-        console.log("Hiding dropdown")
-        dropdown.style.display = "none";
-        
-    } else {
-        console.log("Showing dropdown")
-        dropdown.style.display = "inline";
+    if (dropstate){ 
+        dropdown.style.display = "none"; 
+    } 
+    else { 
+        dropdown.style.display = "inline"; 
     }
     dropstate ^= 1;
     
