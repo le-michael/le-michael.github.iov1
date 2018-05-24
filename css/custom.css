@@ -1,13 +1,89 @@
-.section {
-    padding: 8rem 0 7rem;
+
+.section{
+    margin-top: 2rem;
 }
 
-.info {
-    border-right: 2px solid silver;
+.contact{
+    display: none;
 }
 
 .nav {
-    padding-top: 0rem;
+    display: none;
+}
+
+#particles-js{
+    width: 0px;
+    height: 0px;
+}
+
+.info{
+    display: none;
+}
+
+
+.mobile-nav{
+    display: inline;
+    margin-bottom: -5rem;
+
+}
+
+
+.dropdown{
+    text-align: center;
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+    width:3rem;
+    height: 3rem;
+
+    cursor: pointer;
+
+}
+
+
+#particles-js{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+
+@media (min-width: 820px){
+
+
+    
+    .section {
+        margin-top: 0rem;
+        padding: 20rem 0 0rem;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .container{
+        /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+        padding: 5rem 5rem 5rem 5rem;
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    .mobile-nav{
+        display: none;
+    }
+
+
+    .contact{
+        display: inline;
+    }
+
+    .info {
+        display: inline;
+       border-right: 2px solid silver; 
+    }
+
+    .nav{
+        display: inline;
+    }
+
+
 }
 
 u {
@@ -29,19 +105,6 @@ u {
 }
 
 
-
-@keyframes scramble {
-    0% {
-        content: "";
-    }
-    50%{
-        content: "ABOUT";
-    }
-    100%{
-        content: "ABOUT ME";
-    }
-}
-
 .fadein{
     animation: fadein 2s linear  alternate;
 }
@@ -54,10 +117,7 @@ i{
     font-size: 1.25em;
 }
 
-.particle-js{   
-    width: 100%;
-    height: 100%;
-}
+
 
 .nav-item{
     cursor: pointer;
@@ -65,4 +125,9 @@ i{
 
 .project-title{
     font-size: 2.0rem;
+}
+
+hr {
+    background-color: silver;
+    height: 2px;
 }

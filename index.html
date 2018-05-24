@@ -34,17 +34,34 @@
 </head>
 
 <body>
+  <div id="particles-js" class="big"></div>
 
   <div class="section">
+
     <div class="container">
+      <div class="mobile-nav">
+
+        <h3 class="name">Michael Le</h3>
+        <div class="dropdown"><i class="fas fa-bars"></i>
+
+        </div>
+
+
+
+
+        <hr>
+      
+      </div>
+      
       <div class="row">
+
         <div class="info three columns">
           <h4>
             <b>Michael Le</b>
             <span class="blink"></span>
           </h4>
 
-          <div id="particles-js"></div>
+          
           <div class="contact">
             <h6>
               <i class="fab fa-github-alt"></i> : le-michael
@@ -54,7 +71,6 @@
               <i class="fab fa-linkedin"></i> : lemich
             </h6>
 
-
           </div>
 
 
@@ -62,6 +78,7 @@
 
           <div class="nav">
             <h5 class="nav-item" onclick="Load('aboutme');">
+              </a>
               <u>About Me</u>
             </h5>
             <h5 class="nav-item" onclick="Load('projects');">
@@ -75,9 +92,9 @@
         </div>
 
 
-        <div class="nine columns">
+        <div class="nine columns content">
           <div id="aboutme" class="">
-            <h4 >About Me</h4>
+            <h4>About Me</h4>
 
             <p>I am currently studying Software Engineering at Mcmaster University. As a young engineer
               <u>driven to learn</u>, I spend
@@ -97,17 +114,25 @@
 
           <div id="projects" class="fadein" style="display: none;">
             <h4>Projects</h1>
-            
-            <div class="project-item">
-              <span class="project-title">filter</span> : 
-              A compolation of various image filters written in Go. <br>
-              - Implemented edge detection, blurring, sharpning, and a few more filters.
-              <br>
-              - Took advantage of Go's concurrency to improve the image processing time.
 
-            </div>
+              <div class="project-item">
+                <span class="project-title">filter</span> : A compolation of various image filters written in Go.
+                <br> - Implemented edge detection, blurring, sharpning, and a few more filters.
+                <br> - Took advantage of Go's concurrency to improve the image processing time.
+                <br> - Developed unit tests to verify the corecetness of each filter's calculations.
+              </div>
+              <hr>
 
+
+              <div class="project-item">
+                <span class="project-title">filter</span> : A compolation of various image filters written in Go.
+                <br> - Implemented edge detection, blurring, sharpning, and a few more filters.
+                <br> - Took advantage of Go's concurrency to improve the image processing time.
+                <br> - Developed unit tests to verify the corecetness of each filter's calculations.
+              </div>
+              <hr>
           </div>
+
 
 
 
@@ -115,7 +140,9 @@
 
 
 
+
       </div>
+
     </div>
   </div>
 
