@@ -4,6 +4,7 @@
     font-size: 1.1rem;
 }
 
+html { overflow-y: hidden; }
 
 .section{
     margin-top: 2rem;
