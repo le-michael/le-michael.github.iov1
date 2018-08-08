@@ -2,141 +2,162 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Michael Le</title>
-  <meta name="description" content="Michael Le's portfolio website">
-  <meta name="author" content="https://github.com/le-michael">
+    <meta charset="utf-8">
+    <title>Michael Le</title>
+    <meta name="description" content="Michael Le's portfolio website">
+    <meta name="author" content="https://github.com/le-michael">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
 
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/custom.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-    crossorigin="anonymous">
-
-
-  <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
 
 <body>
-  <div id="particles-js" class="big"></div>
-
-  <div class="section">
-
-    <div class="container">
-      <div class="mobile-nav">
-
-        <h3 class="name">Michael Le
-          <span class="blink">_</span>
-        </h3>
-        <div id="dropdown" onclick="ShowDropdown();">
-          <i class="fas fa-bars"></i>
-          <div id="drop-list">
-            <h5 class="drop-content" onclick="Load('aboutme');">About Me</h5>
-            <h5 class="drop-content" onclick="Load('projects');">Projects</h5>
-
-            <a href="images/resume.pdf">Resume</a>
-          </div>
-          
-        </div>
-
-        <div class="mobile-contact">
-          <i class="fab fa-github-alt"></i> : le-michael &nbsp;&nbsp;
-          <i class="fab fa-linkedin"></i> : lemich &nbsp;&nbsp;
-          <i class="fas fa-at"></i> : lem12@mcmaster.ca
-
-        </div>
+    <div id="particles-js" class="big"></div>
 
 
-        <hr>
+    <div class="section">
+        <div class="container">
+            <div class="mobile-nav">
 
-      </div>
+                <h3 class="name">Michael Le
+                    <span class="blink">_</span>
+                </h3>
+                <div id="dropdown" onclick="ShowDropdown();">
+                    <i class="fas fa-bars"></i>
+                    <div id="drop-list">
+                        <h5 class="drop-content" onclick="Load('aboutme');">About Me</h5>
+                        <h5 class="drop-content" onclick="Load('projects');">Projects</h5>
 
-      <div class="row">
+                        <a href="images/resume.pdf">Resume</a>
+                    </div>
 
-        <div class="info three columns">
-          <h4>
-            <b>Michael Le</b>
-            <span class="blink">_</span>
-          </h4>
+                </div>
+
+                <div class="mobile-contact">
+                    <i class="fab fa-github-alt"></i> : le-michael &nbsp;&nbsp;
+                    <i class="fab fa-linkedin"></i> : lemich &nbsp;&nbsp;
+                    <i class="fas fa-at"></i> : lem12@mcmaster.ca
+                </div>
+                <hr>
+            </div>
+
+            <div class="row">
+
+                <!-- Contact info + Nav  -->
+                <div class="info three columns">
+                    <h4>
+                        <b>Michael Le</b>
+                        <span class="blink">_</span>
+                    </h4>
 
 
-          <div class="contact">
-            <h6>
-              <i class="fab fa-github-alt"></i> : le-michael
-              <br>
-              <i class="fas fa-at"></i> : lem12@mcmaster.ca
-              <br>
-              <i class="fab fa-linkedin"></i> : lemich
-            </h6>
-          </div>
+                    <div class="contact">
+                        <h6>
+                            <i class="fab fa-github-alt"></i> : le-michael
+                            <br>
+                            <i class="fas fa-at"></i> : lem12@mcmaster.ca
+                            <br>
+                            <i class="fab fa-linkedin"></i> : lemich
+                        </h6>
+                    </div>
 
 
 
 
-          <div class="nav">
-            <h5 class="nav-item" onclick="Load('aboutme');">
-              </a>
-              <u>About Me</u>
-            </h5>
-            <h5 class="nav-item" onclick="Load('projects');">
-              <u>Projects</u>
-            </h5>
-            <u>
-              <a href="images/resume.pdf">Resume</a>
-            </u>
-          </div>
+                    <div class="nav">
+                        <h5 class="nav-item" onclick="Load('aboutme');">
+                            </a>
+                            <u>About Me</u>
+                        </h5>
+                        <h5 class="nav-item" onclick="Load('projects');">
+                            <u>Projects</u>
+                        </h5>
+                        <u>
+                            <a href="images/resume.pdf">Resume</a>
+                        </u>
+                    </div>
 
-        </div>
+                </div>
+
+                <!-- Pages -->
+                <div class="nine columns content">
+                    <!-- about me page  -->
+                    <div id="aboutme" class="">
+                        <h4>About Me</h4>
 
 
-        <div class="nine columns content">
-          <div id="aboutme" class="">
-            <h4>About Me</h4>
+                        <ul>
+                            <li>Third year Software Engineering student at McMaster.</li>
+                            <li>Always looking to imporve myself by tinkering with small projects, competiting in programming
+                                competitions and reading random books.</li>
+                            <li>A member of the Competive Programming team at McMaster, I get to represent the University at
+                                the ICPC.</li>
+                        </ul>
 
 
-            <ul>
-              <li>Third year Software Engineering student at McMaster.</li>
-              <li>Always looking to imporve myself by tinkering with small projects, competiting in programming competitions and reading random books.</li>
-              <li>A member of the Competive Programming team at McMaster, I get to represent the University at the ICPC.</li>
-            </ul>
-          
+                        <h4>What I write in</h4>
+                        <ul class="list">
+                            <li class="listing">C/C++</li>
+                            <li class="listing">Go</li>
+                            <li class="listing">HTML/CSS</li>
+                            <li class="listing">Javascript</li>
+                            <li class="listing">Java</li>
+                            <li class="listing">Python</li>
+                            <li class="listing">Bash</li>
+                        </ul>
 
-          <h4>What I can write in</h4>
-          <ul class="list">
-            <li class="listing">C/C++</li>
-            <li class="listing">Go</li>
-            <li class="listing">HTML/CSS</li>
-            <li class="listing">Javascript</li>
-            <li class="listing" >Java</li>
-            <li class="listing">Python</li>
-          </ul>
-          
-          <h4>Things I use</h4>
-          <ul class="list">
-            <li class="listing">React</li>
-            <li class="listing">Git</li>
-            <li class="listing">Linux</li>
-            <li class="listing">Express</li>
-            <li class="listing" >Flask</li>
-            <li class="listing">Socket.io</li>
-          </ul>
+                        <h4>Things I use</h4>
+                        <ul class="list">
+                            <li class="listing">React</li>
+                            <li class="listing">Git</li>
+                            <li class="listing">Linux</li>
+                            <li class="listing">Express</li>
+                            <li class="listing">Flask</li>
+                            <li class="listing">Socket.io</li>
+                            <li class="listing">JQuery</li>
 
-        </div>
-          <div id="projects" style="display: none;">
-              <h4>Projects</h1>
-                <p> Still working on a project worth showcasing... but feel free to check out my work out on github.</p>
+                        </ul>
 
+                    </div>
+                    <!-- Project Page  -->
+                    <div id="projects" style="display: none;">
+                        <h4>Projects</h1>
+                            <div class="list">
+                                <div class="project-item">
+                                    <h5>kinundrum</h5>
+                                    <div class="group-buttons">
+                                        <div class="project-button">
+                                            <i class="project-icon fas fa-info"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-item">
+                                    <h5>simple</h5>
+                                    <div class="group-buttons">
+                                        <div class="project-button">
+                                            <i class="project-icon fas fa-info"></i>
+                                        </div>
+                                        <div class="project-button">
+                                            <i class=" project-icon fas fa-code"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
             </div>
         </div>
-      </div>
-    </div>
 
 </body>
 

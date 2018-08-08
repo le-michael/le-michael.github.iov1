@@ -25,12 +25,13 @@
 
 .info{
     display: none;
+
 }
 
 
 .mobile-nav{
-    display: inline;
-    margin-bottom: -6rem;
+    display: block;
+
 
 }
 
@@ -88,6 +89,44 @@
     margin-right: 5%;
 }
 
+.project-item{
+    display: flex;
+
+    height: 40px;
+    width: 100%;
+
+    margin-bottom: 10px;
+    border-bottom: 1px silver solid;
+}
+
+.group-buttons{
+    display: flex;
+    order: 2;
+    margin-left:auto;
+}
+
+.project-button{
+    width:30px;
+    height: 30px;
+    background-color: white;
+    /*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.project-button:hover {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.22);
+  }
+
+.project-icon{
+    color: silver;
+    position: relative;
+    top: 4px;
+}
+
 @media (min-width: 1080px){
 
     html { 
@@ -110,7 +149,7 @@
 
     .content{
         height: 480px;
-        border-right: 2px solid silver;
+
         padding-right: 2.5rem;
     }
 
@@ -126,6 +165,7 @@
     .info {
         display: block;
         height: 480px;
+        width: 300px;
         border-right: 2px solid silver;
 
     }
