@@ -115,11 +115,8 @@ var curr = "aboutme";
 
 
 function Load(PageName) {
-    console.log(curr);
-
     document.getElementById(curr).style.display = "none";
     document.getElementById(PageName).style.display = "inline";
-    console.log(document.getElementById(PageName).style.display)
     curr = PageName;
 }
 
