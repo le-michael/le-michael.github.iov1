@@ -149,7 +149,6 @@
 
     .content{
         height: 480px;
-
         padding-right: 2.5rem;
     }
 
@@ -223,4 +222,24 @@ i{
 hr {
     background-color: silver;
     height: 2px;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+    background: silver
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }
