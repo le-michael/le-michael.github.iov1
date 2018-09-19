@@ -17,7 +17,7 @@
     crossorigin="anonymous">
 
 
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="images/gitav.ico">
 
 </head>
 
@@ -35,10 +35,16 @@
         <div id="dropdown" onclick="ShowDropdown();">
           <i class="fas fa-bars"></i>
           <div id="drop-list">
-            <h5 class="drop-content" onclick="Load('aboutme');">About Me</h5>
-            <h5 class="drop-content" onclick="Load('projects');">Projects</h5>
-
-            <a href="images/resume.pdf">Resume</a>
+            <div class="drop-item">
+                <h5 class="drop-content" onclick="Load('aboutme');">About Me</h5>
+            </div>
+            <div class="drop-item">
+                <h5 class="drop-content" onclick="Load('projects');">Projects</h5>
+            </div>
+            <div class="drop-item">
+                <a href="images/resume.pdf"><h5>Resume</h5></a>
+            </div>
+            
           </div>
 
         </div>
@@ -156,6 +162,8 @@
           </div>
 
 
+          <!-- Different Project Pages -->
+
           <div id="kinundrum" style="display: none">
             <h4>Kinundrum</h4>
             <h5>What is it?</h5>
@@ -182,9 +190,8 @@
 
             <h5>Why am I working on this?</h5>
             <p>Just need an excuse to play around and get more familiar with Go.</p>
-
-
           </div>
+          
 
         </div>
       </div>
